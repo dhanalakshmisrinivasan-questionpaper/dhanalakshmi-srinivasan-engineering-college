@@ -1,6 +1,5 @@
 // --- 1. DATABASE OF PAPERS ---
 const questionPapers = [
- [
   {
     "subject_name": "Space Science",
     "year": 2020,
@@ -430,6 +429,7 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
 
