@@ -295,23 +295,22 @@ const questionPapers = [
     "view_url": "https://drive.google.com/file/d/1N0oItnkN9Yy5jZgRk7ZfwQ1aNMppSoxT/view?usp=sharing"
   }
 ];
-
 // --- 2. SEARCH FUNCTIONALITY ---
-const searchButton = document.getElementById("searchButton");
-const searchInput = document.getElementById("searchInput");
-const resultsContainer = document.getElementById("resultsContainer");
-const analysisSection = document.getElementById("analysis-section");
+const searchButton = document.getElementById('searchButton');
+const searchInput = document.getElementById('searchInput');
+const resultsContainer = document.getElementById('resultsContainer');
+const analysisSection = document.getElementById('analysis-section');
 // Get the new suggestions container
-const suggestionsContainer = document.getElementById("suggestionsContainer");
+const suggestionsContainer = document.getElementById('suggestionsContainer');
 let currentResults = [];
 
 function performSearch() {
     const query = searchInput.value.toLowerCase().trim();
-    resultsContainer.innerHTML = "";
-    analysisSection.innerHTML = "";
+    resultsContainer.innerHTML = '';
+    analysisSection.innerHTML = '';
     currentResults = [];
     // Clear suggestions when a full search is performed
-    suggestionsContainer.innerHTML = ""; 
+    suggestionsContainer.innerHTML = ''; 
     if (!query) { return; }
     
     currentResults = questionPapers.filter(paper => paper.subject.toLowerCase().includes(query));
@@ -346,7 +345,7 @@ function performSearch() {
 // New function to show live suggestions
 function showSuggestions() {
     const query = searchInput.value.toLowerCase().trim();
-    suggestionsContainer.innerHTML = ""; // Clear old suggestions
+    suggestionsContainer.innerHTML = ''; // Clear old suggestions
     if (!query) {
         return; // Exit if the search box is empty
     }
@@ -411,7 +410,7 @@ document.addEventListener('click', e => {
         const allTopics = currentResults.flatMap(paper => paper.topics || []);
         const topicCounts = allTopics.reduce((acc, topic) => { acc[topic] = (acc[topic] || 0) + 1; return acc; }, {});
         const sortedTopics = Object.entries(topicCounts).sort(([,a],[,b]) => b-a);
-        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>`).join('') + '</ul>';
+        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => <li>${topic} <span>Appeared in ${count} paper(s)</span></li>).join('') + '</ul>';
         document.getElementById("analysisReportContainer").innerHTML = reportHTML;
         openModal(document.getElementById("analysisModal"));
     }
@@ -429,8 +428,3 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
-
-
-
-
-
