@@ -295,12 +295,12 @@ const questionPapers = [
     "view_url": "https://drive.google.com/file/d/1N0oItnkN9Yy5jZgRk7ZfwQ1aNMppSoxT/view?usp=sharing"
   }
 ];
+
 // --- 2. SEARCH FUNCTIONALITY ---
 const searchButton = document.getElementById('searchButton');
 const searchInput = document.getElementById('searchInput');
 const resultsContainer = document.getElementById('resultsContainer');
 const analysisSection = document.getElementById('analysis-section');
-// Get the new suggestions container
 const suggestionsContainer = document.getElementById('suggestionsContainer');
 let currentResults = [];
 
@@ -309,12 +309,16 @@ function performSearch() {
     resultsContainer.innerHTML = '';
     analysisSection.innerHTML = '';
     currentResults = [];
-    // Clear suggestions when a full search is performed
     suggestionsContainer.innerHTML = ''; 
-    if (!query) { return; }
-    
-    currentResults = questionPapers.filter(paper => paper.subject.toLowerCase().includes(query));
+    if (!query) {
+        return;
+    }
+
+    // FIX 1: Changed paper.subject to paper.subject_name to match the database keys
+    currentResults = questionPapers.filter(paper => paper.subject_name.toLowerCase().includes(query));
+
     if (currentResults.length > 0) {
+        // This condition will likely never be met, but it is kept from the original code.
         if (currentResults.length >= 99999999) {
             const analyseBtn = document.createElement('button');
             analyseBtn.className = 'analysis-btn';
@@ -322,17 +326,20 @@ function performSearch() {
             analyseBtn.id = 'analyseTopicsBtn';
             analysisSection.appendChild(analyseBtn);
         }
+
         currentResults.forEach(paper => {
             const resultItem = document.createElement('div');
             resultItem.className = 'result-item';
+            
+            // FIX 2: Used the correct property names from the database object
             resultItem.innerHTML = `
                 <div>
                     <strong>${paper.title}</strong>
-                    <p>Subject: ${paper.subject} | Year: ${paper.year}</p>
+                    <p>Subject: ${paper.subject_name} | Year: ${paper.year}</p>
                 </div>
                 <div class="button-group">
-                    <button class="view-button" data-url="${paper.viewUrl}" data-title="${paper.title}" data-download="${paper.downloadUrl}">View</button>
-                    <a href="${paper.downloadUrl}" class="download-button" download>Download</a>
+                    <button class="view-button" data-url="${paper.view_url}">View</button>
+                    <a href="${paper.download_url}" class="download-button" download>Download</a>
                 </div>
             `;
             resultsContainer.appendChild(resultItem);
@@ -342,16 +349,16 @@ function performSearch() {
     }
 }
 
-// New function to show live suggestions
+
 function showSuggestions() {
     const query = searchInput.value.toLowerCase().trim();
-    suggestionsContainer.innerHTML = ''; // Clear old suggestions
+    suggestionsContainer.innerHTML = ''; 
     if (!query) {
-        return; // Exit if the search box is empty
+        return;
     }
-
-    // Get a unique list of subjects from the database
-    const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject))];
+    
+    // FIX 3: Changed paper.subject to paper.subject_name
+    const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject_name))];
     const filteredSubjects = uniqueSubjects.filter(subject => subject.toLowerCase().includes(query));
 
     if (filteredSubjects.length > 0) {
@@ -361,26 +368,25 @@ function showSuggestions() {
             suggestionItem.textContent = subject;
             suggestionItem.addEventListener('click', () => {
                 searchInput.value = subject;
-                suggestionsContainer.innerHTML = ''; // Hide suggestions after selection
-                performSearch(); // Immediately perform the search for the selected subject
+                suggestionsContainer.innerHTML = '';
+                performSearch();
             });
             suggestionsContainer.appendChild(suggestionItem);
         });
     }
 }
 
-// Event listeners for the search functionality
+// --- Event listeners ---
 searchButton.addEventListener('click', performSearch);
+
 searchInput.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
         performSearch();
     }
 });
 
-// Add the new event listener for live suggestions
 searchInput.addEventListener('input', showSuggestions);
 
-// Optional: Hide suggestions when clicking anywhere else on the page
 document.addEventListener('click', (e) => {
     if (!e.target.closest('.search-section')) {
         suggestionsContainer.innerHTML = '';
@@ -392,39 +398,55 @@ document.addEventListener('click', (e) => {
 const allModals = document.querySelectorAll('.modal');
 const pdfViewerModal = document.getElementById('pdfViewerModal');
 const pdfIframe = document.getElementById('pdf-iframe');
-const pdfTitle = document.getElementById('pdf-title');
-const downloadPdfBtn = document.getElementById('downloadPdfBtn');
 const closeViewerBtn = document.getElementById('closeViewerBtn');
 
-function openModal(modal) { modal.style.display = "block"; }
-function closeAllModals() { allModals.forEach(m => m.style.display = "none"); }
+function openModal(modal) {
+    if (modal) modal.style.display = "block";
+}
 
-document.getElementById("contactBtn").onclick = () => openModal(document.getElementById("contactModal"));
-document.getElementById("foundersBtn").onclick = () => openModal(document.getElementById("foundersModal"));
-document.getElementById("helpBtn").onclick = () => openModal(document.getElementById("helpModal"));
-document.getElementById("aboutCollegeBtn").onclick = () => openModal(document.getElementById("aboutCollegeModal"));
-document.querySelectorAll('.modal .close-btn').forEach(btn => { btn.onclick = closeAllModals; });
+function closeAllModals() {
+    allModals.forEach(m => m.style.display = "none");
+}
 
+// --- Event listeners for modals and dynamic buttons ---
 document.addEventListener('click', e => {
-    if (e.target && e.target.id === 'analyseTopicsBtn') {
-        const allTopics = currentResults.flatMap(paper => paper.topics || []);
-        const topicCounts = allTopics.reduce((acc, topic) => { acc[topic] = (acc[topic] || 0) + 1; return acc; }, {});
-        const sortedTopics = Object.entries(topicCounts).sort(([,a],[,b]) => b-a);
-        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>`).join('') + '</ul>';
-        document.getElementById("analysisReportContainer").innerHTML = reportHTML;
-        openModal(document.getElementById("analysisModal"));
-    }
-});
-document.addEventListener('click', e => {
-    if (e.target && e.target.classList.contains('view-button')) {
-        // Get the direct Google Drive URL from the data-url attribute
+    if (e.target.matches("#contactBtn")) openModal(document.getElementById("contactModal"));
+    if (e.target.matches("#foundersBtn")) openModal(document.getElementById("foundersModal"));
+    if (e.target.matches("#helpBtn")) openModal(document.getElementById("helpModal"));
+    if (e.target.matches("#aboutCollegeBtn")) openModal(document.getElementById("aboutCollegeModal"));
+    if (e.target.matches(".modal .close-btn")) closeAllModals();
+
+    // Event listener for dynamically created 'View' buttons
+    if (e.target.matches('.view-button')) {
         const url = e.target.getAttribute('data-url');
+        if (url) {
+            window.open(url, '_blank');
+        }
+    }
+
+    // Event listener for dynamically created 'Analyse' button
+    if (e.target.matches('#analyseTopicsBtn')) {
+        // This part assumes 'topics' exist in your paper objects, which they don't currently.
+        // It won't cause an error but will show an empty analysis.
+        const allTopics = currentResults.flatMap(paper => paper.topics || []);
+        const topicCounts = allTopics.reduce((acc, topic) => {
+            acc[topic] = (acc[topic] || 0) + 1;
+            return acc;
+        }, {});
+        const sortedTopics = Object.entries(topicCounts).sort(([, a], [, b]) => b - a);
+        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>`).join('') + '</ul>';
         
-        // Open the URL in a new tab, allowing users to use Google Drive's native features
-        window.open(url, '_blank');
+        const analysisContainer = document.getElementById("analysisReportContainer");
+        if(analysisContainer) {
+          analysisContainer.innerHTML = reportHTML;
+          openModal(document.getElementById("analysisModal"));
+        }
     }
 });
-closeViewerBtn.onclick = () => {
-    pdfViewerModal.style.display = 'none';
-    pdfIframe.src = '';
-};
+
+if(closeViewerBtn) {
+  closeViewerBtn.onclick = () => {
+      if(pdfViewerModal) pdfViewerModal.style.display = 'none';
+      if(pdfIframe) pdfIframe.src = '';
+  };
+}
