@@ -517,6 +517,189 @@ const questionPapers = [
     "title": "U20AS613 - Experimental Stress Analysis (Q).pdf",
     "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS613 - Experimental Stress Analysis (Q).pdf",
     "view_url": "https://drive.google.com/file/d/1g5qnbHMirj844lo9effA0HSKNXQHuolo/view?usp=sharing"
+  },
+  [
+  {
+    "subject_name": "AI Knowledge Representation and Reasoning",
+    "year": 2020,
+    "title": "U20AI602 - AI Knowledge Representation and Reasoning (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI602 - AI Knowledge Representation and Reasoning (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1zZpI9rFDgcUuABep0Ws4WnHGKmJt7bDB/view?usp=sharing"
+  },
+  {
+    "subject_name": "ANATOMY AND HUMAN PHYSIOLOGY",
+    "year": 2020,
+    "title": "U20BM304 - ANATOMY AND HUMAN PHYSIOLOGY(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM304 - ANATOMY AND HUMAN PHYSIOLOGY(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1wsOZRN4T3ajjOEAXEH13MrjD1wwclWei/view?usp=sharing"
+  },
+  {
+    "subject_name": "Aerospace Structural Mechanics",
+    "year": 2020,
+    "title": "U20AS503-Aerospace Structural Mechanics(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS503-Aerospace Structural Mechanics(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1lV0F0rlxCU6g0t2RHGBxujFszQE_NKpv/view?usp=sharing"
+  },
+  {
+    "subject_name": "ARTIFICIAL INTELLIGENCE IN HEALTHCARE",
+    "year": 2020,
+    "title": "U20BM702 _ ARTIFICIAL INTELLIGENCE IN HEALTHCARE(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM702 _ ARTIFICIAL INTELLIGENCE IN HEALTHCARE(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1oYp77p1JhnwCL6y3s1ae-AIVRiypP6e4/view?usp=sharing"
+  },
+  {
+    "subject_name": "BIO CONTROL SYSTEMS",
+    "year": 2020,
+    "title": "U20BM601 & BIO CONTROL SYSTEMS (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM601 & BIO CONTROL SYSTEMS (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1hiCGyNZuzvrSU4NFSQ4IfYZ2aVXiz72M/view?usp=sharing"
+  },
+  {
+    "subject_name": "BIO SIGNAL PROCESSING",
+    "year": 2020,
+    "title": "U20BM501 BIO SIGNAL PROCESSING(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM501 BIO SIGNAL PROCESSING(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1p2EPXmX1vHOKrAga74y0CI68WKTDqffW/view?usp=sharing"
+  },
+  {
+    "subject_name": "CHEMICAL REACTION ENGINEERING -I",
+    "year": 2020,
+    "title": "U20CH502-CHEMICAL REACTION ENGINEERING -I(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH502-CHEMICAL REACTION ENGINEERING -I(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1hBBPJJ8aM9G5sDLs9xi9R5poPk7YD2C5/view?usp=sharing"
+  },
+  {
+    "subject_name": "CLINICAL MANAGEMENT",
+    "year": 2020,
+    "title": "U20BM504 – CLINICAL MANAGEMENT(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM504 – CLINICAL MANAGEMENT(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1k4TcTt0UNUp5lNLirET_8D_zrZDKd0b1/view?usp=sharing"
+  },
+  {
+    "subject_name": "Concrete Technology",
+    "year": 2020,
+    "title": "U20CE405 - Concrete Technology (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE405 - Concrete Technology (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1xCJwvuDRyanxud3WfCwWoYUUm4dtgfmZ/view?usp=sharing"
+  },
+  {
+    "subject_name": "DESIGN OF RC ELEMENTS",
+    "year": 2020,
+    "title": "U20CE503 – DESIGN OF RC ELEMENTS(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE503 – DESIGN OF RC ELEMENTS(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1qWdDfidJRo9GTfIXl1t6Qm0m_MYYXhNX/view?usp=sharing"
+  },
+  {
+    "subject_name": "Database Management Systems",
+    "year": 2020,
+    "title": "U20AI301 – Database Management Systems(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI301 – Database Management Systems(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1p395YxQeGnG0qJBwuS4jd5syo5M-sUfk/view?usp=sharing"
+  },
+  {
+    "subject_name": "Digital Image Processing",
+    "year": 2020,
+    "title": "U20AI404 - Digital Image Processing (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI404 - Digital Image Processing (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1kISDu0NcHoD2EVmcwjsRNwxXsIyrwkcb/view?usp=sharing"
+  },
+  {
+    "subject_name": "Disaster Management",
+    "year": 2020,
+    "title": "U20CE735 _ Disaster Management(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE735 _ Disaster Management(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1vkGTWWDWxTeuMMmYqPMkZul8JW2H2ie7/view?usp=sharing"
+  },
+  {
+    "subject_name": "Flight Systems and Instrumentation",
+    "year": 2020,
+    "title": "U20AS603 - Flight Systems and Instrumentation (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS603 - Flight Systems and Instrumentation (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1wbQFyJ8iGlf__1c7UD2kP0NurdsPukOs/view?usp=sharing"
+  },
+  {
+    "subject_name": "Food and Dairy Engineering",
+    "year": 2020,
+    "title": "U20AG604 - Food and Dairy Engineering (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AG604 - Food and Dairy Engineering (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1gLAuhQw-gF7NgCTCdWKlDFnR24ZbftlE/view?usp=sharing"
+  },
+  {
+    "subject_name": "Green Computing",
+    "year": 2020,
+    "title": "U20AI733 - Green Computing(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI733 - Green Computing(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1i8MLMQLVInR6WBKFhw-gNrKCktXcUfnW/view?usp=sharing"
+  },
+  {
+    "subject_name": "Mechanics of Solids for Chemical Engineers",
+    "year": 2020,
+    "title": "U20CH302 - Mechanics of Solids for Chemical Engineers(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH302 - Mechanics of Solids for Chemical Engineers(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1jjJam8mSmlU6dpOtOHtCQlI4PbTm9ax3/view?usp=sharing"
+  },
+  {
+    "subject_name": "Molecular Biology",
+    "year": 2020,
+    "title": "U20BT403 - Molecular Biology (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BT403 - Molecular Biology (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1rIhrQrcPBI2KPMD4rZXY56ZJD05hdUMd/view?usp=sharing"
+  },
+  {
+    "subject_name": "Object Oriented Programming",
+    "year": 2020,
+    "title": "U20AI303 – Object Oriented Programming(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI303 – Object Oriented Programming(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1pEZSXvqxRTNuC3r338rQiXe8j8Y_uRVT/view?usp=sharing"
+  },
+  {
+    "subject_name": "Object Oriented Programming",
+    "year": 2020,
+    "title": "U20CS303 U20IT302 _ Object Oriented Programming(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CS303 U20IT302 Object Oriented Programming (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1y5lt_yxHaoeRPnaF3n7-kuDN-lZAVNOk/view?usp=sharing"
+  },
+  {
+    "subject_name": "Protected Cultivation",
+    "year": 2020,
+    "title": "U20AG612 - Protected Cultivation (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AG612 - Protected Cultivation (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1vCnYie3-iqtNg8N_mH5JYcx4pejW1GUk/view?usp=sharing"
+  },
+  {
+    "subject_name": "Rehabilitation Engineering",
+    "year": 2020,
+    "title": "U20BM608 & Rehabilitation Engineering (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM608 & Rehabilitation Engineering (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1ySG6faEt2L10ewQ_Bt4WJU99m6rTA7G7/view?usp=sharing"
+  },
+  {
+    "subject_name": "SIGNALS AND SYSTEMS",
+    "year": 2020,
+    "title": "U20BM303 _ SIGNALS AND SYSTEMS (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM303 _ SIGNALS AND SYSTEMS (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1mb8Nn3yNrJVaJzA9uZd3RvLKFVrpcwfI/view?usp=sharing"
+  },
+  {
+    "subject_name": "Sensors and Transducers",
+    "year": 2020,
+    "title": "U20BM301– Sensors and Transducers (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM301– Sensors and Transducers (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1wCLtSu5CFVU1v_onKsH1TjktbY8S8b7Q/view?usp=sharing"
+  },
+  {
+    "subject_name": "Software Engineering",
+    "year": 2020,
+    "title": "U20AI503 - Software Engineering (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI503 - Software Engineering (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1ko1NK9qRe8rbYEYt0j_WrX-7OakLtZNu/view?usp=sharing"
+  },
+  {
+    "subject_name": "Strength of Materials- I",
+    "year": 2020,
+    "title": "U20CE301– Strength of Materials- I(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE301– Strength of Materials- I(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1yvb7mf4-MVodengZTOo6c0w_EpLRWkag/view?usp=sharing"
   }
 ];
 
@@ -674,5 +857,6 @@ if(closeViewerBtn) {
       if(pdfIframe) pdfIframe.src = '';
   };
 }
+
 
 
