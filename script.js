@@ -316,7 +316,7 @@ function performSearch() {
     if (!query) { return; }
     
     currentResults = questionPapers.filter(paper => paper.subject.toLowerCase().includes(query));
-    if (currentResults.length > 0) {
+    if (currentResults.length > 99999999) {
         if (currentResults.length >= 99999999) {
             const analyseBtn = document.createElement('button');
             analyseBtn.className = 'analysis-btn';
@@ -430,4 +430,5 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
