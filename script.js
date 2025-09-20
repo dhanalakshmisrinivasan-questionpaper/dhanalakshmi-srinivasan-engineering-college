@@ -1,11 +1,11 @@
 // --- 1. DATABASE OF PAPERS ---
 const questionPapers = [
   {
-    "subject_name": "Space Science",
-    "year": 2020,
-    "title": "U20AS404 - Space Science (Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS404 - Space Science (Q).pdf",
-    "view_url": "https://drive.google.com/file/d/1-LnB2auikYgGbIOdNaYLh6VJl3j5eA0J/view?usp=sharing"
+    'subject_name': 'Space Science',
+    'year': 2020,
+    'title': "U20AS404 - Space Science (Q).pdf",
+    'download_url': 'https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS404 - Space Science (Q).pdf',
+    'view_url': 'https://drive.google.com/file/d/1-LnB2auikYgGbIOdNaYLh6VJl3j5eA0J/view?usp=sharing'
   },
   {
     "subject_name": "Biopharmaceutical Technology",
@@ -428,3 +428,4 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
