@@ -410,7 +410,7 @@ document.addEventListener('click', e => {
         const allTopics = currentResults.flatMap(paper => paper.topics || []);
         const topicCounts = allTopics.reduce((acc, topic) => { acc[topic] = (acc[topic] || 0) + 1; return acc; }, {});
         const sortedTopics = Object.entries(topicCounts).sort(([,a],[,b]) => b-a);
-        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>).join('') + '</ul>';
+        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>`).join('') + '</ul>';
         document.getElementById("analysisReportContainer").innerHTML = reportHTML;
         openModal(document.getElementById("analysisModal"));
     }
@@ -428,5 +428,6 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
