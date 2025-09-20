@@ -297,21 +297,21 @@ const questionPapers = [
 ];
 
 // --- 2. SEARCH FUNCTIONALITY ---
-const searchButton = document.getElementById('searchButton');
-const searchInput = document.getElementById('searchInput');
-const resultsContainer = document.getElementById('resultsContainer');
-const analysisSection = document.getElementById('analysis-section');
+const searchButton = document.getElementById("searchButton");
+const searchInput = document.getElementById("searchInput");
+const resultsContainer = document.getElementById("resultsContainer");
+const analysisSection = document.getElementById("analysis-section");
 // Get the new suggestions container
-const suggestionsContainer = document.getElementById('suggestionsContainer');
+const suggestionsContainer = document.getElementById("suggestionsContainer");
 let currentResults = [];
 
 function performSearch() {
     const query = searchInput.value.toLowerCase().trim();
-    resultsContainer.innerHTML = '';
-    analysisSection.innerHTML = '';
+    resultsContainer.innerHTML = "";
+    analysisSection.innerHTML = "";
     currentResults = [];
     // Clear suggestions when a full search is performed
-    suggestionsContainer.innerHTML = ''; 
+    suggestionsContainer.innerHTML = ""; 
     if (!query) { return; }
     
     currentResults = questionPapers.filter(paper => paper.subject.toLowerCase().includes(query));
@@ -346,7 +346,7 @@ function performSearch() {
 // New function to show live suggestions
 function showSuggestions() {
     const query = searchInput.value.toLowerCase().trim();
-    suggestionsContainer.innerHTML = ''; // Clear old suggestions
+    suggestionsContainer.innerHTML = ""; // Clear old suggestions
     if (!query) {
         return; // Exit if the search box is empty
     }
@@ -429,6 +429,7 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
 
