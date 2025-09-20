@@ -293,6 +293,230 @@ const questionPapers = [
     "title": "U20BT502  Genetic Engineering(Q).pdf",
     "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BT502  Genetic Engineering(Q).pdf",
     "view_url": "https://drive.google.com/file/d/1N0oItnkN9Yy5jZgRk7ZfwQ1aNMppSoxT/view?usp=sharing"
+  },
+  {
+    "subject_name": "Compressible Flow",
+    "year": 2020,
+    "title": "U20AS501 – Compressible Flow(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS501 – Compressible Flow(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1Oa4GAevIgCqah6V-zSErhMstX-Kah2qP/view?usp=sharing"
+  },
+  {
+    "subject_name": "Biomaterials",
+    "year": 2020,
+    "title": "U20BM510 & Biomaterials(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM510 & Biomaterials(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1P9inR6aAXTR0cZjRhvpoMWTjysugAH_V/view?usp=sharing"
+  },
+  {
+    "subject_name": "FLUIDS MECHANICS",
+    "year": 2020,
+    "title": "U20CE302_ FLUIDS MECHANICS (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE302_ FLUIDS MECHANICS (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1PR8pXTMHmIZHcloAgYZ1sixuFQoRBJR-/view?usp=sharing"
+  },
+  {
+    "subject_name": "PROCESS EQUIPMENT DESIGN FOR CHEMICAL ENGINEERS",
+    "year": 2020,
+    "title": "U20CH703 PROCESS EQUIPMENT DESIGN FOR CHEMICAL ENGINEERS(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH703 PROCESS EQUIPMENT DESIGN FOR CHEMICAL ENGINEERS(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1QlqeHknaSk835iMRFV5Bymj7k1RrOeZP/view?usp=sharing"
+  },
+  {
+    "subject_name": "Estimating Costing and Valuation Engineering",
+    "year": 2020,
+    "title": "U20CE701 – Estimating Costing and Valuation Engineering(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE701 – Estimating Costing and Valuation Engineering(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1QqCjLVIjiZQwFVOHtDh4Z-4UAEHJg-gT/view?usp=sharing"
+  },
+  {
+    "subject_name": "CHEMICAL PROCESS ENGINEERING ECONOMICS",
+    "year": 2020,
+    "title": "U20CH702 _ CHEMICAL PROCESS ENGINEERING ECONOMICS (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH702 _ CHEMICAL PROCESS ENGINEERING ECONOMICS (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1Qw2VVQzrCnkcz5V4LH8F4dyt4-6Aymyy/view?usp=sharing"
+  },
+  {
+    "subject_name": "Public Water Supply System & Treatment",
+    "year": 2020,
+    "title": "U20CE502 – Public Water Supply System & Treatment (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE502 – Public Water Supply System & Treatment (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1RwbuBMXLkhj6p1DF9cQLO_Y5fElcRXoO/view?usp=sharing"
+  },
+  {
+    "subject_name": "Composite Materials and Structures",
+    "year": 2020,
+    "title": "U20AS732 Composite Materials and Structures(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS732 Composite Materials and Structures(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1SUnwWidBD1QrXaRZSa8dVyDPtV8iyaQe/view?usp=sharing"
+  },
+  {
+    "subject_name": "DATAWAREHOUSING AND DATA MINING",
+    "year": 2020,
+    "title": "U20AI601 - DATAWAREHOUSING AND DATA MINING (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI601 - DATAWAREHOUSING AND DATA MINING (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1Sh91o4SjZqmldaZev_FqfEuHQpyMx6sE/view?usp=sharing"
+  },
+  {
+    "subject_name": "Mechanics of Machines",
+    "year": 2020,
+    "title": "U20AS302 - Mechanics of Machines(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS302 - Mechanics of Machines(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1UtduBMklHlY1jr8ZpFJaVVgrdvfeaRxY/view?usp=sharing"
+  },
+  {
+    "subject_name": "Bioelectric Physiology and Chemical Analysis",
+    "year": 2020,
+    "title": "U20BM404 - Bioelectric Physiology and Chemical Analysis (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM404 - Bioelectric Physiology and Chemical Analysis (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1V2S9BiVhXBSQamticd6hwHo7nDgcVSUa/view?usp=sharing"
+  },
+  {
+    "subject_name": "Medical Physics",
+    "year": 2020,
+    "title": "U20BM403 - Medical Physics (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM403 - Medical Physics (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1X4eiraf2HiFcZefp9DB2KehWf2o5QP7v/view?usp=sharing"
+  },
+  {
+    "subject_name": "MEDICAL IMAGE PROCESSING",
+    "year": 2020,
+    "title": "U20BM604 MEDICAL IMAGE PROCESSING(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BM604 MEDICAL IMAGE PROCESSING(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1XqPHE0D9RdUUJ079ISJ49AZwt1GvJEQT/view?usp=sharing"
+  },
+  {
+    "subject_name": "Instrumental Method of Chemical Analysis",
+    "year": 2020,
+    "title": "U20CH501 _ Instrumental Method of Chemical Analysis(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH501 _ Instrumental Method of Chemical Analysis(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1YTgJp2-nzLFUk62qOrNpchaKg6i8fdsu/view?usp=sharing"
+  },
+  {
+    "subject_name": "Water Resources Engineering",
+    "year": 2020,
+    "title": "U20CE702 Water Resources Engineering (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE702 Water Resources Engineering (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1ZGWM4-nZqgaZKrs32yVKGUSFBDY3RYtA/view?usp=sharing"
+  },
+  {
+    "subject_name": "Process Heat Transfer",
+    "year": 2020,
+    "title": "U20CH504 – Process Heat Transfer(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH504 – Process Heat Transfer(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1ZXWqvP0xCj_jEOtZrbf4S_8MVdZSvR22/view?usp=sharing"
+  },
+  {
+    "subject_name": "Cryptography and Network Security",
+    "year": 2020,
+    "title": "CS8792 - Cryptography and Network Security(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/CS8792 - Cryptography and Network Security(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1_lZ2g67Eml0QXF6s751-RxSqB2Vljwys/view?usp=sharing"
+  },
+  {
+    "subject_name": "Computer Applications in Design",
+    "year": 2020,
+    "title": "P20CC101 - Computer Applications in Design(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/P20CC101 - Computer Applications in Design(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1_w3bm0KUwz0URGIY4HAyvGb25bFu965q/view?usp=sharing"
+  },
+  {
+    "subject_name": "Strength of Materials - II",
+    "year": 2020,
+    "title": "U20CE402 - Strength of Materials - II (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE402 - Strength of Materials - II (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1aBwZOtK8zddtqPwN_xWM8uTp-tlAjBu9/view?usp=sharing"
+  },
+  {
+    "subject_name": "Bioprocess Principle",
+    "year": 2020,
+    "title": "U20BT401 - Bioprocess Principle (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BT401 - Bioprocess Principle (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1bGCFrzX8G5pj6Lo6Ec313mroKGeTU4yk/view?usp=sharing"
+  },
+  {
+    "subject_name": "Software Engineering",
+    "year": 2020,
+    "title": "U20CS401 -Software Engineering (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CS401 -Software Engineering (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1bRttqI0EfIiJoDBG0nxeHe2k5UVfh8OD/view?usp=sharing"
+  },
+  {
+    "subject_name": "Computational Fluid Dynamics for Aerospace Engineering",
+    "year": 2020,
+    "title": "U20AS702– Computational Fluid Dynamics for Aerospace Engineering(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS702– Computational Fluid Dynamics for Aerospace Engineering(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1crPuGaLhQYNy72mzHMT2uM3nP3ERWI0g/view?usp=sharing"
+  },
+  {
+    "subject_name": "Heritage of Tamil",
+    "year": 2020,
+    "title": "GE3152  - Heritage of Tamil(Q) new.pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/GE3152  - Heritage of Tamil(Q) new.pdf",
+    "view_url": "https://drive.google.com/file/d/1d7jlaSYQmrrkxSpVoYSG9CFWOrl197dv/view?usp=sharing"
+  },
+  {
+    "subject_name": "REMOTE SENSING AND GIS APPLICATION",
+    "year": 2020,
+    "title": "U20CE621 - REMOTE SENSING AND GIS APPLICATION (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE621 - REMOTE SENSING AND GIS APPLICATION (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1e8XdymgKPJusFQ7FE2U6clVSHBoAYvxk/view?usp=sharing"
+  },
+  {
+    "subject_name": "Transport Phenomena",
+    "year": 2020,
+    "title": "U20CH701 Transport Phenomena(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CH701 Transport Phenomena(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1eZNqCBsb2Xo-gUA93XSi8tgpRkn8W4LQ/view?usp=sharing"
+  },
+  {
+    "subject_name": "Heat and Mass Transfer Operations",
+    "year": 2020,
+    "title": "U20BT504 – Heat and Mass Transfer Operations(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BT504 – Heat and Mass Transfer Operations(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1erGiyRUzPlNWFq5zKRZhLQUJKyifSeiH/view?usp=sharing"
+  },
+  {
+    "subject_name": "Municipal Solid Waste Management",
+    "year": 2020,
+    "title": "U20CE741 Municipal Solid Waste Management(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE741 Municipal Solid Waste Management(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1fBKsenvvQMkV86ZKsGUlLEUyTawPr6-U/view?usp=sharing"
+  },
+  {
+    "subject_name": "HYPERSONIC AERODYNAMICS FOR AEROSPACE VEHICLES",
+    "year": 2020,
+    "title": "U20AS701- HYPERSONIC AERODYNAMICS FOR AEROSPACE VEHICLES(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS701- HYPERSONIC AERODYNAMICS FOR AEROSPACE VEHICLES(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1fCSp2WmJznzMA3mmmiqf0US8RLo9Yfae/view?usp=sharing"
+  },
+  {
+    "subject_name": "Design and Analysis of Algorithm",
+    "year": 2020,
+    "title": "U20AI402 & U20CS402 - Design and Analysis of Algorithm (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI402 & U20CS402 - Design and Analysis of Algorithm (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1fjXESPEF-WP4cVPSXd_51tu6vgI9kZ0d/view?usp=sharing"
+  },
+  {
+    "subject_name": "Fruits and Vegetables Processing",
+    "year": 2020,
+    "title": "U20AG724 - Fruits and Vegetables Processing(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AG724 - Fruits and Vegetables Processing(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1fkq4J7boyvbv87u_KQ48sbzfGHjxz_nO/view?usp=sharing"
+  },
+  {
+    "subject_name": "Fundamentals of Aerospace control Engineering",
+    "year": 2020,
+    "title": "U20AS504 _ Fundamentals of Aerospace control Engineering(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS504 _ Fundamentals of Aerospace control Engineering(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1fxaIfk0kPF4-uYDuw4rWRzmEW4g71AuM/view?usp=sharing"
+  },
+  {
+    "subject_name": "Experimental Stress Analysis",
+    "year": 2020,
+    "title": "U20AS613 - Experimental Stress Analysis (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS613 - Experimental Stress Analysis (Q).pdf",
+    "view_url": "https://drive.google.com/file/d/1g5qnbHMirj8"
   }
 ];
 
@@ -450,3 +674,4 @@ if(closeViewerBtn) {
       if(pdfIframe) pdfIframe.src = '';
   };
 }
+
