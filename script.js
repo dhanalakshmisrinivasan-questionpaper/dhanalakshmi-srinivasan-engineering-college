@@ -516,7 +516,7 @@ const questionPapers = [
     "year": 2020,
     "title": "U20AS613 - Experimental Stress Analysis (Q).pdf",
     "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS613 - Experimental Stress Analysis (Q).pdf",
-    "view_url": "https://drive.google.com/file/d/1g5qnbHMirj8"
+    "view_url": "https://drive.google.com/file/d/1g5qnbHMirj844lo9effA0HSKNXQHuolo/view?usp=sharing"
   }
 ];
 
@@ -674,4 +674,5 @@ if(closeViewerBtn) {
       if(pdfIframe) pdfIframe.src = '';
   };
 }
+
 
