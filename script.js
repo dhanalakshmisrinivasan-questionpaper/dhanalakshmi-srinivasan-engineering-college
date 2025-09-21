@@ -717,12 +717,12 @@ function performSearch() {
     analysisSection.innerHTML = '';
     currentResults = [];
     // Clear suggestions when a full search is performed
-    suggestionsContainer.innerHTML = ''; 
+    suggestionsContainer.innerHTML = '';
     if (!query) { return; }
-    
+
     currentResults = questionPapers.filter(paper => paper.subject.toLowerCase().includes(query));
     if (currentResults.length > 0) {
-        if (currentResults.length >= 99999999) {
+        if (currentResults.length >= 99999999) { // Note: This number is very high, might never be true
             const analyseBtn = document.createElement('button');
             analyseBtn.className = 'analysis-btn';
             analyseBtn.innerText = '📊 Analyse Topics';
@@ -757,7 +757,7 @@ function showSuggestions() {
         return; // Exit if the search box is empty
     }
 
-    // Get a unique list of subjects from the database
+    // Get a unique list of subjects from the database (assuming 'questionPapers' exists)
     const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject))];
     const filteredSubjects = uniqueSubjects.filter(subject => subject.toLowerCase().includes(query));
 
@@ -803,13 +803,16 @@ const pdfTitle = document.getElementById('pdf-title');
 const downloadPdfBtn = document.getElementById('downloadPdfBtn');
 const closeViewerBtn = document.getElementById('closeViewerBtn');
 
-function openModal(modal) { modal.style.display = "block"; }
+function openModal(modal) { if (modal) modal.style.display = "block"; }
 function closeAllModals() { allModals.forEach(m => m.style.display = "none"); }
 
 document.getElementById("contactBtn").onclick = () => openModal(document.getElementById("contactModal"));
 document.getElementById("foundersBtn").onclick = () => openModal(document.getElementById("foundersModal"));
 document.getElementById("helpBtn").onclick = () => openModal(document.getElementById("helpModal"));
+// --- THIS IS THE FIX ---
 document.getElementById("aboutCollegeBtn").onclick = () => openModal(document.getElementById("aboutCollegeModal"));
+// -----------------------
+
 document.querySelectorAll('.modal .close-btn').forEach(btn => { btn.onclick = closeAllModals; });
 
 document.addEventListener('click', e => {
@@ -817,7 +820,7 @@ document.addEventListener('click', e => {
         const allTopics = currentResults.flatMap(paper => paper.topics || []);
         const topicCounts = allTopics.reduce((acc, topic) => { acc[topic] = (acc[topic] || 0) + 1; return acc; }, {});
         const sortedTopics = Object.entries(topicCounts).sort(([,a],[,b]) => b-a);
-        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => <li>${topic} <span>Appeared in ${count} paper(s)</span></li>).join('') + '</ul>';
+        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>`).join('') + '</ul>';
         document.getElementById("analysisReportContainer").innerHTML = reportHTML;
         openModal(document.getElementById("analysisModal"));
     }
