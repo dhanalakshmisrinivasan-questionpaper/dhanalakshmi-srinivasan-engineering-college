@@ -707,7 +707,6 @@ const searchButton = document.getElementById('searchButton');
 const searchInput = document.getElementById('searchInput');
 const resultsContainer = document.getElementById('resultsContainer');
 const analysisSection = document.getElementById('analysis-section');
-// Get the new suggestions container
 const suggestionsContainer = document.getElementById('suggestionsContainer');
 let currentResults = [];
 
@@ -716,30 +715,29 @@ function performSearch() {
     resultsContainer.innerHTML = '';
     analysisSection.innerHTML = '';
     currentResults = [];
-    // Clear suggestions when a full search is performed
-    suggestionsContainer.innerHTML = '';
-    if (!query) { return; }
+    suggestionsContainer.innerHTML = ''; 
+    if (!query) {
+        return;
+    }
 
+    // FIX 1: Corrected property name to 'subject_name'
     currentResults = questionPapers.filter(paper => paper.subject_name.toLowerCase().includes(query));
+
     if (currentResults.length > 0) {
-        if (currentResults.length >= 99999999) { // Note: This number is very high, might never be true
-            const analyseBtn = document.createElement('button');
-            analyseBtn.className = 'analysis-btn';
-            analyseBtn.innerText = '📊 Analyse Topics';
-            analyseBtn.id = 'analyseTopicsBtn';
-            analysisSection.appendChild(analyseBtn);
-        }
+        // Removed the flawed "analyseTopicsBtn" logic
         currentResults.forEach(paper => {
             const resultItem = document.createElement('div');
             resultItem.className = 'result-item';
+            
+            // FIX 2: Corrected property names to use 'subject_name'
             resultItem.innerHTML = `
                 <div>
                     <strong>${paper.title}</strong>
-                    <p>Subject: ${paper.subject} | Year: ${paper.year}</p>
+                    <p>Subject: ${paper.subject_name} | Year: ${paper.year}</p>
                 </div>
                 <div class="button-group">
-                    <button class="view-button" data-url="${paper.viewUrl}" data-title="${paper.title}" data-download="${paper.downloadUrl}">View</button>
-                    <a href="${paper.downloadUrl}" class="download-button" download>Download</a>
+                    <button class="view-button" data-url="${paper.view_url}">View</button>
+                    <a href="${paper.download_url}" class="download-button" download>Download</a>
                 </div>
             `;
             resultsContainer.appendChild(resultItem);
@@ -749,15 +747,14 @@ function performSearch() {
     }
 }
 
-// New function to show live suggestions
+
 function showSuggestions() {
     const query = searchInput.value.toLowerCase().trim();
-    suggestionsContainer.innerHTML = ''; // Clear old suggestions
+    suggestionsContainer.innerHTML = ''; 
     if (!query) {
-        return; // Exit if the search box is empty
-    }
-
-    // Get a unique list of subjects from the database (assuming 'questionPapers' exists)
+        return;
+    } 
+    // FIX 3: Corrected property name to 'subject_name'
     const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject_name))];
     const filteredSubjects = uniqueSubjects.filter(subject => subject.toLowerCase().includes(query));
 
@@ -768,8 +765,8 @@ function showSuggestions() {
             suggestionItem.textContent = subject;
             suggestionItem.addEventListener('click', () => {
                 searchInput.value = subject;
-                suggestionsContainer.innerHTML = ''; // Hide suggestions after selection
-                performSearch(); // Immediately perform the search for the selected subject
+                suggestionsContainer.innerHTML = '';
+                performSearch();
             });
             suggestionsContainer.appendChild(suggestionItem);
         });
@@ -838,5 +835,6 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
