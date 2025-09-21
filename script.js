@@ -720,7 +720,7 @@ function performSearch() {
     suggestionsContainer.innerHTML = '';
     if (!query) { return; }
 
-    currentResults = questionPapers.filter(paper => paper.subject.toLowerCase().includes(query));
+    currentResults = questionPapers.filter(paper => paper.subject_name.toLowerCase().includes(query));
     if (currentResults.length > 0) {
         if (currentResults.length >= 99999999) { // Note: This number is very high, might never be true
             const analyseBtn = document.createElement('button');
@@ -838,4 +838,5 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
