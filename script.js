@@ -758,7 +758,7 @@ function showSuggestions() {
     }
 
     // Get a unique list of subjects from the database (assuming 'questionPapers' exists)
-    const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject))];
+    const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject_name))];
     const filteredSubjects = uniqueSubjects.filter(subject => subject.toLowerCase().includes(query));
 
     if (filteredSubjects.length > 0) {
@@ -838,3 +838,4 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
