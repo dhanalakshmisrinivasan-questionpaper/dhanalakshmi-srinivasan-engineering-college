@@ -857,7 +857,3 @@ if(closeViewerBtn) {
       if(pdfIframe) pdfIframe.src = '';
   };
 }
-
-
-
-
