@@ -856,4 +856,3 @@ if(closeViewerBtn) {
       if(pdfViewerModal) pdfViewerModal.style.display = 'none';
       if(pdfIframe) pdfIframe.src = '';
   };
-}
