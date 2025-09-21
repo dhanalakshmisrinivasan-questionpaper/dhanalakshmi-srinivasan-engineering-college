@@ -1,4 +1,5 @@
 // --- 1. DATABASE OF PAPERS ---
+// CORRECTED: Flattened the nested array to ensure a single, valid data structure.
 const questionPapers = [
   {
     'subject_name': 'Space Science',
@@ -39,7 +40,7 @@ const questionPapers = [
     "subject_name": "Computer Networks",
     "year": 2020,
     "title": "U20AI401 , U20CS404 & U20IT403 - Computer Networks (Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI401 , U20CS404 & U20IT403 - Computer Networks (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmisrinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI401 , U20CS404 & U20IT403 - Computer Networks (Q).pdf",
     "view_url": "https://drive.google.com/file/d/12NV9vwDRgZw-tSW0MajkVXeHLs-KfNtJ/view?usp=sharing"
   },
   {
@@ -88,7 +89,7 @@ const questionPapers = [
     "subject_name": "Computer Architecture and Organization",
     "year": 2020,
     "title": "U20AI302 - Computer Architecture and Organization(Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI302 - Computer Architecture and Organization(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmisrinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI302 - Computer Architecture and Organization(Q).pdf",
     "view_url": "https://drive.google.com/file/d/16T8oQ7PtkBTBlvSkgP131D_g8PUv95ij/view?usp=sharing"
   },
   {
@@ -445,7 +446,7 @@ const questionPapers = [
     "subject_name": "Computational Fluid Dynamics for Aerospace Engineering",
     "year": 2020,
     "title": "U20AS702– Computational Fluid Dynamics for Aerospace Engineering(Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS702– Computational Fluid Dynamics for Aerospace Engineering(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmisrinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS702– Computational Fluid Dynamics for Aerospace Engineering(Q).pdf",
     "view_url": "https://drive.google.com/file/d/1crPuGaLhQYNy72mzHMT2uM3nP3ERWI0g/view?usp=sharing"
   },
   {
@@ -518,7 +519,6 @@ const questionPapers = [
     "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AS613 - Experimental Stress Analysis (Q).pdf",
     "view_url": "https://drive.google.com/file/d/1g5qnbHMirj844lo9effA0HSKNXQHuolo/view?usp=sharing"
   },
-  [
   {
     "subject_name": "AI Knowledge Representation and Reasoning",
     "year": 2020,
@@ -649,14 +649,14 @@ const questionPapers = [
     "subject_name": "Object Oriented Programming",
     "year": 2020,
     "title": "U20AI303 – Object Oriented Programming(Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI303 – Object Oriented Programming(Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmisrinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI303 – Object Oriented Programming(Q).pdf",
     "view_url": "https://drive.google.com/file/d/1pEZSXvqxRTNuC3r338rQiXe8j8Y_uRVT/view?usp=sharing"
   },
   {
     "subject_name": "Object Oriented Programming",
     "year": 2020,
     "title": "U20CS303 U20IT302 _ Object Oriented Programming(Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CS303 U20IT302 Object Oriented Programming (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmisrinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CS303 U20IT302 Object Oriented Programming (Q).pdf",
     "view_url": "https://drive.google.com/file/d/1y5lt_yxHaoeRPnaF3n7-kuDN-lZAVNOk/view?usp=sharing"
   },
   {
@@ -691,7 +691,7 @@ const questionPapers = [
     "subject_name": "Software Engineering",
     "year": 2020,
     "title": "U20AI503 - Software Engineering (Q).pdf",
-    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI503 - Software Engineering (Q).pdf",
+    "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmisrinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20AI503 - Software Engineering (Q).pdf",
     "view_url": "https://drive.google.com/file/d/1ko1NK9qRe8rbYEYt0j_WrX-7OakLtZNu/view?usp=sharing"
   },
   {
@@ -721,24 +721,50 @@ function performSearch() {
         return;
     }
 
-    // FIX 1: Changed paper.subject to paper.subject_name to match the database keys
+    // FIX 1: Corrected property name to 'subject_name'
     currentResults = questionPapers.filter(paper => paper.subject_name.toLowerCase().includes(query));
 
     if (currentResults.length > 0) {
-        // This condition will likely never be met, but it is kept from the original code.
-        if (currentResults.length >= 99999999) {
-            const analyseBtn = document.createElement('button');
-            analyseBtn.className = 'analysis-btn';
-            analyseBtn.innerText = '📊 Analyse Topics';
-            analyseBtn.id = 'analyseTopicsBtn';
-            analysisSection.appendChild(analyseBtn);
-        }
-
+        // Removed the flawed "analyseTopicsBtn" logic
         currentResults.forEach(paper => {
             const resultItem = document.createElement('div');
             resultItem.className = 'result-item';
             
-            // FIX 2: Used the correct property names from the database object
+            // FIX 2: Corrected property names to use 'subject_name'
+            resultItem.innerHTML = `
+                <div>
+                    <strong>${paper.title}</strong>
+                    <p>Subject: ${paper.subject_name} | Year: ${paper.year}</p>
+                </div>
+                <div class="button-group">
+                    <button class="view-button" data-url="${paper.view_url}">View</button>
+                    <a href="${paper.download_url}" class="download-button" download>Download</a>
+                </div>
+            `;
+            resultsContainer.appendChild(resultItem);
+        });
+    } else {
+        resultsContainer.innerHTML = '<p>No papers found.</p>';
+    }
+}
+
+
+function showSuggestions() {
+    const query = searchInput.value.toLowerCase().trim();
+    suggestionsContainer.innerHTML = ''; 
+    if (!query) {
+        return;
+    }
+  // FIX 1: Corrected property name to 'subject_name'
+    currentResults = questionPapers.filter(paper => paper.subject_name.toLowerCase().includes(query));
+
+    if (currentResults.length > 0) {
+        // Removed the flawed "analyseTopicsBtn" logic
+        currentResults.forEach(paper => {
+            const resultItem = document.createElement('div');
+            resultItem.className = 'result-item';
+            
+            // FIX 2: Corrected property names to use 'subject_name'
             resultItem.innerHTML = `
                 <div>
                     <strong>${paper.title}</strong>
@@ -764,7 +790,7 @@ function showSuggestions() {
         return;
     }
     
-    // FIX 3: Changed paper.subject to paper.subject_name
+    // FIX 3: Corrected property name to 'subject_name'
     const uniqueSubjects = [...new Set(questionPapers.map(paper => paper.subject_name))];
     const filteredSubjects = uniqueSubjects.filter(subject => subject.toLowerCase().includes(query));
 
@@ -803,9 +829,6 @@ document.addEventListener('click', (e) => {
 
 // --- 3. MODAL FUNCTIONALITY ---
 const allModals = document.querySelectorAll('.modal');
-const pdfViewerModal = document.getElementById('pdfViewerModal');
-const pdfIframe = document.getElementById('pdf-iframe');
-const closeViewerBtn = document.getElementById('closeViewerBtn');
 
 function openModal(modal) {
     if (modal) modal.style.display = "block";
@@ -827,32 +850,10 @@ document.addEventListener('click', e => {
     if (e.target.matches('.view-button')) {
         const url = e.target.getAttribute('data-url');
         if (url) {
+            // FIX 5: Simplified the view button functionality to directly open the URL in a new tab.
             window.open(url, '_blank');
-        }
-    }
-
-    // Event listener for dynamically created 'Analyse' button
-    if (e.target.matches('#analyseTopicsBtn')) {
-        // This part assumes 'topics' exist in your paper objects, which they don't currently.
-        // It won't cause an error but will show an empty analysis.
-        const allTopics = currentResults.flatMap(paper => paper.topics || []);
-        const topicCounts = allTopics.reduce((acc, topic) => {
-            acc[topic] = (acc[topic] || 0) + 1;
-            return acc;
-        }, {});
-        const sortedTopics = Object.entries(topicCounts).sort(([, a], [, b]) => b - a);
-        let reportHTML = '<ul>' + sortedTopics.map(([topic, count]) => `<li>${topic} <span>Appeared in ${count} paper(s)</span></li>`).join('') + '</ul>';
-        
-        const analysisContainer = document.getElementById("analysisReportContainer");
-        if(analysisContainer) {
-          analysisContainer.innerHTML = reportHTML;
-          openModal(document.getElementById("analysisModal"));
         }
     }
 });
 
-if(closeViewerBtn) {
-  closeViewerBtn.onclick = () => {
-      if(pdfViewerModal) pdfViewerModal.style.display = 'none';
-      if(pdfIframe) pdfIframe.src = '';
-  };
+// Removed the irrelevant analysis logic since the data doesn't support it and the button will never show.
