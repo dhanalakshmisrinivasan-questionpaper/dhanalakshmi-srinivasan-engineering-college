@@ -700,7 +700,7 @@ const questionPapers = [
     "title": "U20CE301– Strength of Materials- I(Q).pdf",
     "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20CE301– Strength of Materials- I(Q).pdf",
     "view_url": "https://drive.google.com/file/d/1yvb7mf4-MVodengZTOo6c0w_EpLRWkag/view?usp=sharing"
-  },
+  }
 ];
 // --- 2. SEARCH FUNCTIONALITY ---
 const searchButton = document.getElementById('searchButton');
@@ -835,6 +835,7 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
 
