@@ -15,6 +15,35 @@ const questionPapers = [
     "download_url": "https://raw.githubusercontent.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/abbae616aef49dfd9a68038d002a88eb13d638be/U20BT507_ Biopharmaceutical Technology(Q).pdf",
     "view_url": "https://drive.google.com/file/d/10CEC3-vTXz-LNtzz7zPxA7cf3DPOdfHo/view?usp=sharing"
   },
+  [
+  {
+    "subject_name": "Computer Networks",
+    "year": 2020,
+    "title": "CS 8591-Computer Networks (Q).pdf",
+    "download_url": "https://raw.github.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/blob/260560975d3c55cac219ff690ad13250ef19936a/CS%208591-Computer%20Networks%20(Q).pdf",
+    "view_url": "https://drive.google.com/file/d/12UWWiMRDfU8HIuhMxrL7n4DjjNjOBWwk/view?usp=sharing"
+  },
+  {
+    "subject_name": "Computer Networks",
+    "year": 2020,
+    "title": "CS 3591-Computer Networks (Q)3.pdf",
+    "download_url": "https://raw.github.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/blob/260560975d3c55cac219ff690ad13250ef19936a/CS%203591-Computer%20Networks%20(Q)3.pdf",
+    "view_url": "https://drive.google.com/file/d/141OLqsnLnKX5UxeHlXy5bzOaNO2YqeWR/view?usp=sharing"
+  },
+  {
+    "subject_name": "Computer Networks",
+    "year": 2020,
+    "title": "CS 8591-Computer Networks (Q)1.pdf",
+    "download_url": "https://raw.github.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/blob/260560975d3c55cac219ff690ad13250ef19936a/CS%208591-Computer%20Networks%20(Q)1.pdf",
+    "view_url": "https://drive.google.com/file/d/1D1v4pTTQ3hMFn3Vptnu2drXmuE0LYM1X/view?usp=sharing"
+  },
+  {
+    "subject_name": "Computer Networks",
+    "year": 2020,
+    "title": "CS 3591-Computer Networks (Q)3.pdf",
+    "download_url": "https://raw.github.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/blob/260560975d3c55cac219ff690ad13250ef19936a/CS%203591-Computer%20Networks%20(Q)3.pdf",
+    "view_url": "https://drive.google.com/file/d/1D3kd7My82vH0DUvRYzD2VH8Tdq_36bC_/view?usp=sharing"
+  },
   {
     "subject_name": "Bioprocess Engineering",
     "year": 2020,
@@ -835,6 +864,7 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
 
