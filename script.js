@@ -19,7 +19,7 @@ const questionPapers = [
     "subject_name": "Computer Networks",
     "year": 2020,
     "title": "CS 8591-Computer Networks (Q).pdf",
-    "download_url": "https://raw.github.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/260560975d3c55cac219ff690ad13250ef19936a/CS%208591-Computer%20Networks%20(Q).pdf",
+    "download_url": "https://github.com/dhanalakshmisrinivasan-questionpaper/dhanalakshmi-srinivasan-engineering-college/blob/3e1b585dba2a9dc092fdf4d32ce668a6f5947362/CS%208591-Computer%20Networks%20(Q).pdf",
     "view_url": "https://drive.google.com/file/d/12UWWiMRDfU8HIuhMxrL7n4DjjNjOBWwk/view?usp=sharing"
   },
   {
@@ -863,6 +863,7 @@ closeViewerBtn.onclick = () => {
     pdfViewerModal.style.display = 'none';
     pdfIframe.src = '';
 };
+
 
 
 
